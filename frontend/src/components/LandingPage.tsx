@@ -35,7 +35,7 @@ export function LandingPage({ onNavigate, theme, onToggleTheme }: LandingPagePro
               <Shield className="h-6 w-6 text-orange-600 dark:text-orange-400" />
             </div>
             <div>
-              <h1 className="text-xl font-semibold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">सफर Suraksha</h1>
+              <h1 className="text-xl font-semibold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">Panic Alert</h1>
               <p className="text-xs text-muted-foreground">Smart Safety Monitoring</p>
             </div>
           </div>
