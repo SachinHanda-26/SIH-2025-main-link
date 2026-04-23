@@ -68,7 +68,6 @@ downloads/
 data/
 datasets/
 *.csv
-*.json
 *.zip
 
 # Experiment tracking
