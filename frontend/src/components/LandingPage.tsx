@@ -79,7 +79,7 @@ export function LandingPage({ onNavigate, theme, onToggleTheme }: LandingPagePro
             🇮🇳 Experience India Safely - Made for Incredible India
           </Badge>
           <h1 className="text-4xl md:text-6xl mb-6 bg-gradient-to-r from-orange-600 via-red-600 to-pink-600 bg-clip-text text-transparent font-bold">
-            सफर Suraksha
+            Panic Alert
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             Experience India safely with AI-powered monitoring, real-time alerts, and instant emergency response. 
@@ -169,7 +169,7 @@ export function LandingPage({ onNavigate, theme, onToggleTheme }: LandingPagePro
       <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl mb-6">About सफर Suraksha System</h2>
+            <h2 className="text-3xl md:text-4xl mb-6">About Panic Alert System</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               A revolutionary safety platform combining ancient Indian wisdom of hospitality 
               with cutting-edge technology to protect and guide tourists across Bharat.
@@ -364,7 +364,7 @@ export function LandingPage({ onNavigate, theme, onToggleTheme }: LandingPagePro
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Shield className="h-6 w-6 text-orange-500" />
-                <span>सफर Suraksha</span>
+                <span>Panic Alert</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Smart safety monitoring for incredible India experiences
@@ -402,7 +402,7 @@ export function LandingPage({ onNavigate, theme, onToggleTheme }: LandingPagePro
             </div>
           </div>
           <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-            <p>© 2025 सफर Suraksha Safety System. Made with ❤️ for Incredible India.</p>
+            <p>© 2025 Panic Alert Safety System. Made with ❤️ for Incredible India.</p>
           </div>
         </div>
       </footer>
