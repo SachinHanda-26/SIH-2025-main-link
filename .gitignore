@@ -1,0 +1,134 @@
+# ==============================
+# GENERAL
+# ==============================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+.env
+.env.*
+*.local
+
+# ==============================
+# NODE / FRONTEND (React, Vite, Next, etc.)
+# ==============================
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# PYTHON / BACKEND / ML
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ==============================
+# AI / ML SPECIFIC
+# ==============================
+
+# Models (VERY IMPORTANT)
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pb
+*.ckpt
+
+# Datasets (usually large)
+data/
+datasets/
+*.csv
+*.json
+*.zip
+
+# Experiment tracking
+mlruns/
+wandb/
+wandb_logs/
+
+# TensorBoard
+logs/
+runs/
+
+# ==============================
+# DATABASE
+# ==============================
+*.sqlite3
+*.db
+
+# ==============================
+# BACKEND (Node / Express / Django / Flask)
+# ==============================
+uploads/
+media/
+staticfiles/
+
+# ==============================
+# DOCKER
+# ==============================
+.dockerignore
+docker-compose.override.yml
+
+# ==============================
+# IDE / EDITORS
+# ==============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==============================
+# OS
+# ==============================
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ==============================
+# SECRETS (CRITICAL)
+# ==============================
+secret.key
+*.pem
+*.key
+*.crt
+
+# ==============================
+# MISC
+# ==============================
+coverage.xml
+*.cover
+.cache/
+pytest_cache/
